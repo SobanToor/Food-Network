@@ -1,0 +1,316 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    width: 100%;
+    /* height: 100vh; */
+}
+
+
+.navwarper{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 205, 150, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.mainnav{
+    
+    display: flex;
+    justify-content: space-around;
+    word-spacing: 5px;
+    
+}
+
+.mainnav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.mainnav a:hover{
+    color: orange;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.paragraph{
+    width: 50%;
+    height: 100vh;
+    
+    
+}
+
+.boldpara{
+    /* background-color: brown; */
+    color: black;  
+}
+
+.headingpara{
+    padding-top: 70px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.lightpara{
+    padding-top: 15px;
+    color: gray;
+}
+
+.girlimg{
+    padding-right: 130px;
+    padding-top: 80px;
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.mainbtn{
+    padding-top: 40px;
+}
+
+.btn1{
+    background-image: linear-gradient(to right, orange, rgb(243, 70, 70));
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.main1{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(7.png);
+    background-size: cover;
+}
+
+
+
+.girl_img1{
+    width: 50%;
+    height: 100vh;
+}
+.girlimg1{
+    max-width: 100%;
+    max-height: 80vh;
+    padding-left: 65px;
+    padding-top: 110px;
+}
+
+.para1{
+    width: 50%;
+    height: 100vh;
+    
+}
+
+.heading_1{
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+
+.para2{
+    color: gray;
+    font-size: 17px;
+}
+
+
+
+.btn_1{
+    padding-top: 30px;
+}
+
+.mainbtn_1{
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    background-image: linear-gradient(to right, orange, rgb(243, 70, 70));
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.para3{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.heading_2{
+    display: flex;
+    justify-content: center;
+}
+
+.para4{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+.para5{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+.cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_1{
+    width: 25%;
+    height: 400px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: white;    
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.card_1_img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+
+
+.heading_3{
+    padding-top: 10px;
+}
+
+.para6{
+    color: gray;
+}
+
+
+.mainnav_1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    
+}
+
+
+.mainnav_2{
+    width: 90%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.2);
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.heading_4{
+    color: black;
+}
+
+.para7{
+    color: gray;
+    background-color: white;
+    align-items: center;
+}
+
+
+.Popular_Foods{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.card_2{
+    width: 20%;
+    height: 300px;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.2);
+}
+
+.card_1_img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.para8{
+    color: gray;
+}
+
+.order{
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(to right, orange, rgb(243, 70, 70));
+    color: white;
+    cursor: pointer;
+}
+
+.cards_1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+
+.footer_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(19, 19, 19);
+}
+
+
+.heading_7{
+    color: gray;  
+   
+}
+
+.footerheading{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
